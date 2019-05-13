@@ -81,5 +81,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/Prod10"
         android:layout_centerHorizontal="true"
-        android:text="@string/agregar_art" />
+        android:text="@string/agregar_art"
+        android:onClick="abrirAgregarProducto"/>
 </RelativeLayout>
