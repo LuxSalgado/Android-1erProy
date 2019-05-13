@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ShoppingDroid</string>
     <string name="agregar_art">Agregar Artículo</string>
+    <string name="activity2_name">Seleccionar Producto</string>
 </resources>
