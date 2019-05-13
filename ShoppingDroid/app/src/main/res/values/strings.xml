@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ShoppingDroid</string>
+    <string name="agregar_art">Agregar Artículo</string>
 </resources>
