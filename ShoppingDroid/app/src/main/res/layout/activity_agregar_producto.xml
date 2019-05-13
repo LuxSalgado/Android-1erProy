@@ -143,6 +143,7 @@
             app:srcCompat="@drawable/jugo_parchita"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
+            android:contentDescription="1 litro de Jugo de Parchita"
             android:layout_below="@id/costilla_cerdo"/>
         <ImageView
             android:id="@+id/lechuga"
@@ -184,6 +185,7 @@
             app:srcCompat="@drawable/pepsi"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
+            android:contentDescription="Pepsi 2 lts"
             android:layout_below="@id/papas_fritas"/>
         <ImageView
             android:id="@+id/polar"
@@ -246,6 +248,7 @@
             app:srcCompat="@drawable/yuca"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
+            android:contentDescription="1 kg de Yuca"
             android:layout_toRightOf="@+id/tomate"
             android:layout_below="@id/pollo"/>
         <ImageView
