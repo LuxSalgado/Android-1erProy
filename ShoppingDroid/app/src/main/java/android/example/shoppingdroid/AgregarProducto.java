@@ -13,5 +13,6 @@ public class AgregarProducto extends AppCompatActivity {
     }
 
     public void agregarAlCarrito(View view) {
+
     }
 }

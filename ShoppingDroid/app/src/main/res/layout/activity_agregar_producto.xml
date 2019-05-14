@@ -13,7 +13,7 @@
             app:srcCompat="@drawable/agua"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:contentDescription="Agua Mineral 1Lt"
+            android:contentDescription="@string/agua"
             android:onClick="agregarAlCarrito"/>
 
 
@@ -25,7 +25,7 @@
             android:scaleType="fitCenter"
             app:srcCompat="@drawable/alitas_pollo"
             android:layout_toRightOf="@+id/agua"
-            android:contentDescription="Alitas de Pollo 12 unids"
+            android:contentDescription="@string/alitas"
             android:onClick="agregarAlCarrito"/>
 
         <ImageView
@@ -36,7 +36,7 @@
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:layout_toRightOf="@+id/alitas_pollo"
-            android:contentDescription="Arroz Blanco 1Kg"
+            android:contentDescription="@string/arroz"
             android:onClick="agregarAlCarrito"/>
 
         <ImageView
@@ -47,7 +47,7 @@
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:layout_toRightOf="@+id/arroz"
-            android:contentDescription="Caja de Cigarros Belmont"
+            android:contentDescription="@string/belmont"
             android:onClick="agregarAlCarrito"/>
 
         <ImageView
@@ -58,7 +58,7 @@
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:layout_below="@+id/agua"
-            android:contentDescription="Carbon Vegetal"
+            android:contentDescription="@string/carbon"
             android:onClick="agregarAlCarrito"/>
         <ImageView
             android:id="@+id/carne"
@@ -69,7 +69,7 @@
             android:scaleType="fitCenter"
             android:layout_toRightOf="@+id/carbon"
             android:layout_below="@id/alitas_pollo"
-            android:contentDescription="Carne de Vaca 1Kg"
+            android:contentDescription="@string/carne"
             android:onClick="agregarAlCarrito"/>
         <ImageView
             android:id="@+id/cebolla"
@@ -80,7 +80,7 @@
             android:scaleType="fitCenter"
             android:layout_toRightOf="@+id/carne"
             android:layout_below="@id/arroz"
-            android:contentDescription="Saco de Cebolla 500g"
+            android:contentDescription="@string/cebolla"
             android:onClick="agregarAlCarrito"/>
         <ImageView
             android:id="@+id/cocacola"
@@ -91,7 +91,7 @@
             android:scaleType="fitCenter"
             android:layout_toRightOf="@+id/cebolla"
             android:layout_below="@id/alitas_pollo"
-            android:contentDescription="Coca-Cola 2Lts"
+            android:contentDescription="@string/coca_cola"
             android:onClick="agregarAlCarrito"/>
         <ImageView
             android:id="@+id/costilla_cerdo"
@@ -101,7 +101,7 @@
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:layout_below="@id/carbon"
-            android:contentDescription="Costilla de Cerdo 1Kg"
+            android:contentDescription="@string/costilla"
             android:onClick="agregarAlCarrito"/>
         <ImageView
             android:id="@+id/doritos"
@@ -112,7 +112,7 @@
             android:scaleType="fitCenter"
             android:layout_toRightOf="@+id/costilla_cerdo"
             android:layout_below="@id/cocacola"
-            android:contentDescription="Doritos 150g"
+            android:contentDescription="@string/doritos"
             android:onClick="agregarAlCarrito"/>
         <ImageView
             android:id="@+id/ensalada_rallada"
@@ -123,7 +123,7 @@
             android:scaleType="fitCenter"
             android:layout_toRightOf="@+id/doritos"
             android:layout_below="@id/cocacola"
-            android:contentDescription="Ensalada Rallada 200g"
+            android:contentDescription="@string/ensalada"
             android:onClick="agregarAlCarrito"/>
         <ImageView
             android:id="@+id/frescolita"
@@ -134,7 +134,7 @@
             android:scaleType="fitCenter"
             android:layout_toRightOf="@+id/ensalada_rallada"
             android:layout_below="@id/cocacola"
-            android:contentDescription="Frescolita 2Lts"
+            android:contentDescription="@string/frescolita"
             android:onClick="agregarAlCarrito"/>
         <ImageView
             android:id="@+id/jugo_parchita"
@@ -143,7 +143,7 @@
             app:srcCompat="@drawable/jugo_parchita"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:contentDescription="1 litro de Jugo de Parchita"
+            android:contentDescription="@string/jugo_parchita"
             android:layout_below="@id/costilla_cerdo"/>
         <ImageView
             android:id="@+id/lechuga"
@@ -154,7 +154,7 @@
             android:scaleType="fitCenter"
             android:layout_toRightOf="@+id/jugo_parchita"
             android:layout_below="@id/frescolita"
-            android:contentDescription="Lechuga Fresca"
+            android:contentDescription="@string/lechuga_fresca"
             android:onClick="agregarAlCarrito"/>
         <ImageView
             android:id="@+id/malta"
@@ -165,7 +165,7 @@
             android:scaleType="fitCenter"
             android:layout_toRightOf="@+id/lechuga"
             android:layout_below="@id/frescolita"
-            android:contentDescription="Maltin Polar 6 unidades"
+            android:contentDescription="@string/malta"
             android:onClick="agregarAlCarrito"/>
         <ImageView
             android:id="@+id/papas_fritas"
@@ -176,7 +176,7 @@
             android:scaleType="fitCenter"
             android:layout_toRightOf="@+id/malta"
             android:layout_below="@id/frescolita"
-            android:contentDescription="Papas Fritas McCain"
+            android:contentDescription="@string/papas_fritas"
             android:onClick="agregarAlCarrito"/>
         <ImageView
             android:id="@+id/pepsi"
@@ -185,7 +185,7 @@
             app:srcCompat="@drawable/pepsi"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:contentDescription="Pepsi 2 lts"
+            android:contentDescription="@string/pepsi"
             android:layout_below="@id/papas_fritas"/>
         <ImageView
             android:id="@+id/polar"
@@ -196,7 +196,7 @@
             android:scaleType="fitCenter"
             android:layout_toRightOf="@+id/pepsi"
             android:layout_below="@id/papas_fritas"
-            android:contentDescription="Cerveza Polar 6 unidades"
+            android:contentDescription="@string/cerveza_polar"
             android:onClick="agregarAlCarrito"/>
         <ImageView
             android:id="@+id/pollo"
@@ -207,7 +207,7 @@
             android:scaleType="fitCenter"
             android:layout_toRightOf="@+id/polar"
             android:layout_below="@id/papas_fritas"
-            android:contentDescription="Pollo Entero"
+            android:contentDescription="@string/pollo_entero"
             android:onClick="agregarAlCarrito"/>
         <ImageView
             android:id="@+id/sal"
@@ -218,7 +218,7 @@
             android:scaleType="fitCenter"
             android:layout_toRightOf="@+id/pollo"
             android:layout_below="@id/papas_fritas"
-            android:contentDescription="Sal fina 1Kg"
+            android:contentDescription="@string/sal"
             android:onClick="agregarAlCarrito"/>
         <ImageView
             android:id="@+id/salmon"
@@ -228,7 +228,7 @@
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:layout_below="@id/sal"
-            android:contentDescription="Salmon Fresco 1Kg"
+            android:contentDescription="@string/salmon"
             android:onClick="agregarAlCarrito"/>
         <ImageView
             android:id="@+id/tomate"
@@ -239,7 +239,7 @@
             android:scaleType="fitCenter"
             android:layout_toRightOf="@+id/salmon"
             android:layout_below="@id/pollo"
-            android:contentDescription="Tomate 500g"
+            android:contentDescription="@string/tomate"
             android:onClick="agregarAlCarrito"/>
         <ImageView
             android:id="@+id/yuca"
@@ -248,7 +248,7 @@
             app:srcCompat="@drawable/yuca"
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
-            android:contentDescription="1 kg de Yuca"
+            android:contentDescription="@string/yuca"
             android:layout_toRightOf="@+id/tomate"
             android:layout_below="@id/pollo"/>
         <ImageView
@@ -260,7 +260,7 @@
             android:scaleType="fitCenter"
             android:layout_toRightOf="@+id/yuca"
             android:layout_below="@id/pollo"
-            android:contentDescription="Zanahoria 1Kg"
+            android:contentDescription="@string/zanahoria"
             android:onClick="agregarAlCarrito"/>
 
 
