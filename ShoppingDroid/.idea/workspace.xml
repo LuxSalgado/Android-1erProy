@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77f3b07b-85b7-487e-9bcf-f98e363e51e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/example/shoppingdroid/AgregarProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/android/example/shoppingdroid/AgregarProducto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/android/example/shoppingdroid/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/android/example/shoppingdroid/MainActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,13 +65,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="383" />
+          <entry key="java" value="514" />
           <entry key="xml" value="1699" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="383" />
+          <entry key="JAVA" value="514" />
           <entry key="XML" value="1699" />
         </counts>
       </usages-collector>
@@ -88,32 +87,6 @@
               <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
               <folding>
                 <element signature="e#656#670#0" expanded="true" />
-                <element signature="e#1102#1118#0" expanded="true" />
-                <element signature="e#1543#1558#0" expanded="true" />
-                <element signature="e#1980#1997#0" expanded="true" />
-                <element signature="e#2412#2428#0" expanded="true" />
-                <element signature="e#2898#2913#0" expanded="true" />
-                <element signature="e#3379#3396#0" expanded="true" />
-                <element signature="e#3873#3892#0" expanded="true" />
-                <element signature="e#4323#4341#0" expanded="true" />
-                <element signature="e#4819#4836#0" expanded="true" />
-                <element signature="e#5325#5343#0" expanded="true" />
-                <element signature="e#5829#5849#0" expanded="true" />
-                <element signature="e#6232#6255#0" expanded="true" />
-                <element signature="e#6741#6765#0" expanded="true" />
-                <element signature="e#7234#7249#0" expanded="true" />
-                <element signature="e#7730#7752#0" expanded="true" />
-                <element signature="e#8119#8134#0" expanded="true" />
-                <element signature="e#8608#8631#0" expanded="true" />
-                <element signature="e#9100#9122#0" expanded="true" />
-                <element signature="e#9587#9600#0" expanded="true" />
-                <element signature="e#10012#10028#0" expanded="true" />
-                <element signature="e#10493#10509#0" expanded="true" />
-                <element signature="e#10683#10695#0" expanded="true" />
-                <element signature="e#10730#10742#0" expanded="true" />
-                <element signature="e#10874#10888#0" expanded="true" />
-                <element signature="e#11116#11128#0" expanded="true" />
-                <element signature="e#11163#11175#0" expanded="true" />
                 <element signature="e#11406#11425#0" expanded="true" />
               </folding>
             </state>
@@ -158,8 +131,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/shoppingdroid/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+            <state relative-caret-position="88">
+              <caret line="50" column="37" lean-forward="true" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2641,7 +2614,7 @@
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.32959184" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.32959184" />
       <window_info id="Structure" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
@@ -2727,32 +2700,6 @@
           <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
           <folding>
             <element signature="e#656#670#0" expanded="true" />
-            <element signature="e#1102#1118#0" expanded="true" />
-            <element signature="e#1543#1558#0" expanded="true" />
-            <element signature="e#1980#1997#0" expanded="true" />
-            <element signature="e#2412#2428#0" expanded="true" />
-            <element signature="e#2898#2913#0" expanded="true" />
-            <element signature="e#3379#3396#0" expanded="true" />
-            <element signature="e#3873#3892#0" expanded="true" />
-            <element signature="e#4323#4341#0" expanded="true" />
-            <element signature="e#4819#4836#0" expanded="true" />
-            <element signature="e#5325#5343#0" expanded="true" />
-            <element signature="e#5829#5849#0" expanded="true" />
-            <element signature="e#6232#6255#0" expanded="true" />
-            <element signature="e#6741#6765#0" expanded="true" />
-            <element signature="e#7234#7249#0" expanded="true" />
-            <element signature="e#7730#7752#0" expanded="true" />
-            <element signature="e#8119#8134#0" expanded="true" />
-            <element signature="e#8608#8631#0" expanded="true" />
-            <element signature="e#9100#9122#0" expanded="true" />
-            <element signature="e#9587#9600#0" expanded="true" />
-            <element signature="e#10012#10028#0" expanded="true" />
-            <element signature="e#10493#10509#0" expanded="true" />
-            <element signature="e#10683#10695#0" expanded="true" />
-            <element signature="e#10730#10742#0" expanded="true" />
-            <element signature="e#10874#10888#0" expanded="true" />
-            <element signature="e#11116#11128#0" expanded="true" />
-            <element signature="e#11163#11175#0" expanded="true" />
             <element signature="e#11406#11425#0" expanded="true" />
           </folding>
         </state>
@@ -2782,8 +2729,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/shoppingdroid/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        <state relative-caret-position="88">
+          <caret line="50" column="37" lean-forward="true" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
