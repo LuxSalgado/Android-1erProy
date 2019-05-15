@@ -144,7 +144,8 @@
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:contentDescription="@string/jugo_parchita"
-            android:layout_below="@id/costilla_cerdo"/>
+            android:layout_below="@id/costilla_cerdo"
+            android:onClick="agregarAlCarrito"/>
         <ImageView
             android:id="@+id/lechuga"
             android:layout_width="@dimen/img"
@@ -186,7 +187,8 @@
             android:adjustViewBounds="true"
             android:scaleType="fitCenter"
             android:contentDescription="@string/pepsi"
-            android:layout_below="@id/papas_fritas"/>
+            android:layout_below="@id/papas_fritas"
+            android:onClick="agregarAlCarrito"/>
         <ImageView
             android:id="@+id/polar"
             android:layout_width="@dimen/img"
@@ -250,7 +252,8 @@
             android:scaleType="fitCenter"
             android:contentDescription="@string/yuca"
             android:layout_toRightOf="@+id/tomate"
-            android:layout_below="@id/pollo"/>
+            android:layout_below="@id/pollo"
+            android:onClick="agregarAlCarrito"/>
         <ImageView
             android:id="@+id/zanahoria"
             android:layout_width="@dimen/img"

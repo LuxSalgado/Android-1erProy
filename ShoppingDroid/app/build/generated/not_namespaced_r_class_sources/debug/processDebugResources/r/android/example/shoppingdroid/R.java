@@ -3702,9 +3702,33 @@ public final class R {
     public static final int abc_toolbar_collapse_description=0x7f0b0026;
     public static final int activity2_name=0x7f0b0027;
     public static final int agregar_art=0x7f0b0028;
-    public static final int app_name=0x7f0b0029;
-    public static final int search_menu_title=0x7f0b002a;
-    public static final int status_bar_notification_info_overflow=0x7f0b002b;
+    public static final int agua=0x7f0b0029;
+    public static final int alitas=0x7f0b002a;
+    public static final int app_name=0x7f0b002b;
+    public static final int arroz=0x7f0b002c;
+    public static final int belmont=0x7f0b002d;
+    public static final int carbon=0x7f0b002e;
+    public static final int carne=0x7f0b002f;
+    public static final int cebolla=0x7f0b0030;
+    public static final int cerveza_polar=0x7f0b0031;
+    public static final int coca_cola=0x7f0b0032;
+    public static final int costilla=0x7f0b0033;
+    public static final int doritos=0x7f0b0034;
+    public static final int ensalada=0x7f0b0035;
+    public static final int frescolita=0x7f0b0036;
+    public static final int jugo_parchita=0x7f0b0037;
+    public static final int lechuga_fresca=0x7f0b0038;
+    public static final int malta=0x7f0b0039;
+    public static final int papas_fritas=0x7f0b003a;
+    public static final int pepsi=0x7f0b003b;
+    public static final int pollo_entero=0x7f0b003c;
+    public static final int sal=0x7f0b003d;
+    public static final int salmon=0x7f0b003e;
+    public static final int search_menu_title=0x7f0b003f;
+    public static final int status_bar_notification_info_overflow=0x7f0b0040;
+    public static final int tomate=0x7f0b0041;
+    public static final int yuca=0x7f0b0042;
+    public static final int zanahoria=0x7f0b0043;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0c0000;

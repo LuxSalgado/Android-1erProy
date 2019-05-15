@@ -379,9 +379,33 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="activity2_name">Seleccionar Producto</string>
     <string name="agregar_art">Agregar Artículo</string>
+    <string name="agua">Agua Mineral 1Lt</string>
+    <string name="alitas">Alitas de Pollo 12 unids</string>
     <string name="app_name">ShoppingDroid</string>
+    <string name="arroz">Arroz Blanco 1Kg</string>
+    <string name="belmont">Caja de Cigarros Belmont de 20 unidades</string>
+    <string name="carbon">Carbon Vegetal</string>
+    <string name="carne">Carne de Vaca 1Kg</string>
+    <string name="cebolla">Saco de Cebolla 500g</string>
+    <string name="cerveza_polar">Cerveza Polar 6 unidades</string>
+    <string name="coca_cola">Coca-Cola 2Lts</string>
+    <string name="costilla">Costilla de Cerdo 1Kg</string>
+    <string name="doritos">Doritos 150g</string>
+    <string name="ensalada">Ensalada Rallada 200g</string>
+    <string name="frescolita">Frescolita 2Lts</string>
+    <string name="jugo_parchita">1 litro de Jugo de Parchita</string>
+    <string name="lechuga_fresca">Lechuga Fresca</string>
+    <string name="malta">Maltin Polar 6 unidades</string>
+    <string name="papas_fritas">Papas Fritas McCain</string>
+    <string name="pepsi">Pepsi 2 lts</string>
+    <string name="pollo_entero">Pollo Entero</string>
+    <string name="sal">Sal fina 1Kg</string>
+    <string name="salmon">Salmon Fresco 1Kg</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tomate">Tomate 500g</string>
+    <string name="yuca">1Kg de Yuca</string>
+    <string name="zanahoria">Zanahoria 1Kg</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
