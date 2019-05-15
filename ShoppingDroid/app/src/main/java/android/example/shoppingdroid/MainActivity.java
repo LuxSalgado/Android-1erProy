@@ -38,8 +38,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void abrirAgregarProducto(View view) {
-        Intent intent = new Intent(this, AgregarProducto.class);
-        startActivityForResult(intent, TEXT_REQUEST);
+        if(numeroProducto<11) {
+            Intent intent = new Intent(this, AgregarProducto.class);
+            startActivityForResult(intent, TEXT_REQUEST);
+        }else
+            Toast.makeText(getApplicationContext(), "Capacidad máxima de productos alcanzada.", Toast.LENGTH_SHORT).show();
     }
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
