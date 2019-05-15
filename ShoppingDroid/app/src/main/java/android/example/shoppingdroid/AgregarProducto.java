@@ -4,11 +4,9 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
 
 public class AgregarProducto extends AppCompatActivity {
 
-    private String producto;
     public static final String EXTRA_AGREGAR = "com.example.android.shoppingdroid.extra.AGREGAR";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,7 +14,7 @@ public class AgregarProducto extends AppCompatActivity {
         setContentView(R.layout.activity_agregar_producto);
 
     }
-
+    /** Al hacer click en la imagen deseada se agrega el contentDescription en ella al intent y se manda el resultado*/
     public void agregarAlCarrito(View view) {
         String agregar = view.getContentDescription().toString();
         Intent agregarIntent = new Intent();

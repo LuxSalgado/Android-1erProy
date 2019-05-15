@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Init();
     }
 
+    /** Al crearse el programa se inicializan los text view*/
     private void Init() {
 
         Producto1 = findViewById(R.id.Prod1);
@@ -38,7 +39,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void abrirAgregarProducto(View view) {
-        if(numeroProducto<11) {
+        /** Se verifica si ya hay 10 productos en la lista de compras, si no hay abre la segunda avtividad, si hay manda un toast diciendo que ya esta full*/
+        if(numeroProducto<10) {
             Intent intent = new Intent(this, AgregarProducto.class);
             startActivityForResult(intent, TEXT_REQUEST);
         }else
@@ -49,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         String textoProducto = data.getStringExtra(AgregarProducto.EXTRA_AGREGAR);
         if (requestCode == 1) {
-
+            /** Se verifica si mando o no un producto antes de agregarlo*/
             if (resultCode == RESULT_OK) {
                 AsignarProductos(numeroProducto, textoProducto);
                 numeroProducto++;
@@ -63,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void AsignarProductos(int i, String texto) {
-
+        /** El switch asigna a cual textView va la informacion dependiendo de cuantos productos se han agregado antes*/
         switch (i) {
             case 0:
                 Producto1.setText(texto);
