@@ -86,6 +86,15 @@
         android:text="@string/agregar_art"
         android:onClick="abrirAgregarProducto"/>
 
+    <Button
+        android:id="@+id/butLimpiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/butProd"
+        android:layout_centerHorizontal="true"
+        android:text="@string/limpiar_lista"
+        android:onClick="limpiarLista"/>
+
 
 
 </RelativeLayout>

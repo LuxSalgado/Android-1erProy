@@ -718,6 +718,7 @@ id beginning
 id belmont
 id blocking
 id bottom
+id butLimpiar
 id butProd
 id buttonPanel
 id carbon
@@ -956,6 +957,7 @@ string ensalada
 string frescolita
 string jugo_parchita
 string lechuga_fresca
+string limpiar_lista
 string malta
 string papas_fritas
 string pepsi

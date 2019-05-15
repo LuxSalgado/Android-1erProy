@@ -1,4 +1,4 @@
-#Wed May 15 12:42:03 VET 2019
+#Wed May 15 13:25:58 VET 2019
 base.0=D\:\\UCAB\\ProgramasAndroid\\Android-1erProy\\ShoppingDroid\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
 path.0=classes.dex
 renamed.0=classes.dex

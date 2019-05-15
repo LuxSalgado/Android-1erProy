@@ -104,4 +104,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void limpiarLista(View view) {
+        /** Se limpian los textViews y se inicializa el contador en cero*/
+        numeroProducto = 0;
+        Producto1.setText(null);
+        Producto2.setText(null);
+        Producto3.setText(null);
+        Producto4.setText(null);
+        Producto5.setText(null);
+        Producto6.setText(null);
+        Producto7.setText(null);
+        Producto8.setText(null);
+        Producto9.setText(null);
+        Producto10.setText(null);
+        Toast.makeText(getApplicationContext(), "La lista ha sido borrada.", Toast.LENGTH_SHORT).show();
+    }
 }
