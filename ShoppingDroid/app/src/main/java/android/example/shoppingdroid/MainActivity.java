@@ -49,10 +49,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        String textoProducto = data.getStringExtra(AgregarProducto.EXTRA_AGREGAR);
         if (requestCode == 1) {
             /** Se verifica si mando o no un producto antes de agregarlo*/
             if (resultCode == RESULT_OK) {
+                String textoProducto = data.getStringExtra(AgregarProducto.EXTRA_AGREGAR);
                 AsignarProductos(numeroProducto, textoProducto);
                 numeroProducto++;
                 Toast.makeText(getApplicationContext(), "Producto agregado exitosamente.", Toast.LENGTH_SHORT).show();
